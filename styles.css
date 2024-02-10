@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+/*
+    Styles for Zemer Orchestra Website
+    Author: Adina Gross
+    Date: 01-02-2023
+*/
+
+html {
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+header {
+    margin-bottom: 10px;
+    text-align: center;
+    width: 96%;
+    font-family: Georgia, sans serif;
+}
+body {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+}
+
+/*==============
+Navigation Bar
+===============*/
+
+nav.horizontal {
+    min-width: 600px;
+}
+nav.horizontal li {
+    list-style-type: none;
+    float: left;
+    border-right: 1px solid #6c757d;
+}
+nav.horizontal a {
+    display: block;
+    text-align: center;
+    padding: 3px 40px 3px 10px;
+    background-color: #51585e;
+}
+
+/*=============
+Hypertext Links
+==============*/
+a {
+    color:white;
+    text-decoration: none;
+}
+a:visited {
+    color:white;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================
+Start Page and Gallery Images
+============================ */
+.gallery div {
+    padding-bottom: 20px;
+}
+.single {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+.gallery::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* ======
+ Footer
+====== */
+
+footer {
+    text-align: center;
+    width: 96%;
+    font-family: Georgia, sans serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

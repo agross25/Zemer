@@ -1,0 +1,49 @@
+@charset "utf-8";
+/*
+    Styles for Zemer Orchestra Monthly Calendar
+    Author: Adina Gross
+    Date: 01-02-2023
+*/
+
+#calendar_table {
+   background-color: #5c636a;
+   font-size: 1em;
+   font-family: "Georgia", Verdana, sans-serif;
+   width: 100%;
+   border-collapse: collapsed;
+   border-style: groove;
+
+}
+
+#calendar_table caption {
+   caption-side: top;
+   text-align: center;
+   padding-bottom: 10px;
+   font-size: 1.5em;
+   letter-spacing: 0.2em;
+}
+
+.calendar_weekdays {
+   background-color: #5c636a;
+   width: 14%;
+   font-size: 1em;
+   border-bottom: 3px solid gray;
+}
+
+.calendar_dates {
+   text-align: left;
+   vertical-align: top;
+   font-size: 0.8em;
+   padding: 3px;
+   border: 1px dotted gray;
+   background-color: #6c757d;
+   height: 60px;
+}
+
+#calendar_today {
+   font-weight: bold;
+   color: black;
+   background-color: steelblue;
+   border: 1px solid black;
+}
+
